@@ -1,0 +1,24 @@
+Textbox
+A text box is used for allowing a user to enter some text on the Web form application. Let’s see how we can implement this with an example shown below. We will add one textbox to the form in which the user can enter his name.
+
+Step 1) The first step is to drag the textbox control onto the Web Form from the toolbox as shown below
+Step 2) Once the Textbox has been added, you have to change the ID property.
+Go to the properties window by right-clicking on the Textbox control and
+Choose properties then
+Change the id property of the textbox to txtName.
+
+List box
+A Listbox is used to showcase a list of items on the Web form. Let’s see how we can implement this with an example shown below. We will add a list box to the form to store some city locations.
+Step 1) The first step is to drag the list box control on to the Web Form from the toolbox as shown below
+tep 2) Once you drag the listbox to the form, a separate side menu will appear. In this menu choose the ‘Edit Items’ menu.
+ASP.Net - Intro, Life Cycle & Hello World Program
+Step 3) You will now be presented with a dialog box in which you can add the list items to the listbox.
+Click on the Add button to add a list item.
+Give a name for the text value of the list item – In our case Mumbai. Repeat steps 1 and 2 to add list items for Mangalore and Hyderabad.
+Click on the OK button
+tep 4) Go to the properties window and change the ID property value of the control to lstLocation.
+
+Button
+A button is used to allow the user to click on a button which would then start the processing of the form. Let’s see how we can implement this with our current example as shown below. We will add a simple button called ‘Submit’ button. This will be used to submit all the information on the form.
+Step 1) The first step is to drag the button control onto the Web Form from the toolbox as shown below
+Step 2) Once the button has been added, go to the properties window by clicking on the button control. Change the text property of the button control to Submit. Also, change the ID property of the button to ‘btnSubmit’.
